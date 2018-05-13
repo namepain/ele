@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" @touchmove.prevent>
     <the-header :seller="seller"></the-header>
     <div class="tab-wrapper border-1px">
       <div class="tab-item">
